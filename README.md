@@ -4,7 +4,7 @@ Name: Yerali Karkinbayev
 
 Group: IT-2501
 
-Open "index.html" in a browser. All files are local, so internet is not needed. The forms only check input; they do not send or save data.
+This page have three forms. Open "index.html" in a browser, it works without internet. Nothing is sent or saved, this is just for checking the fields.
 
 ## Part 1: Basic HTML Forms
 
@@ -12,51 +12,51 @@ Open "index.html" in a browser. All files are local, so internet is not needed. 
 
 ![Contact form](screenshots/task0.jpg)
 
-Name, Email and Message have labels linked to their fields.
+A simple form with Name, Email, Message and a Submit button. Each label is connected to its field using for and id.
 
-### Task 1: HTML5 Validation
+### Task 1: Browser Validation
 
-![Browser email validation](screenshots/task1.jpg)
+![Wrong email](screenshots/task1.jpg)
 
-All three fields are required. Email uses type="email". The maximum lengths are 50 characters for Name, 100 for Email and 500 for Message. The browser blocks empty fields and an incorrect email.
+I added required to all three fields and type="email" to Email. Name can have up to 50 characters, Email 100 and Message 500. If a field is empty or the email is wrong, the browser stops the form.
 
 ## Part 2: Bootstrap Forms
 
-### Task 2: Styled Contact Form
+### Task 2: Bootstrap Contact Form
 
 ![Bootstrap contact form](screenshots/task2.jpg)
 
-The form uses Bootstrap Grid, form-label, form-control, form-text and btn classes, with placeholders and helper text.
+Here I used Bootstrap Grid to arrange the fields. The labels use form-label, the fields use form-control and the button uses btn. I also added placeholders and short hints with form-text.
 
-### Task 3: Invalid Input
+### Task 3: Wrong Input
 
-![Invalid contact form](screenshots/task3-invalid.jpg)
+![Contact form with errors](screenshots/task3-invalid.jpg)
 
-### Task 3: Valid Input
+### Task 3: Correct Input
 
-![Valid contact form](screenshots/task3-valid.jpg)
+![Contact form filled correctly](screenshots/task3-valid.jpg)
 
-After Submit, JavaScript applies is-valid or is-invalid. Feedback updates when the input changes.
+After clicking Submit, JavaScript adds is-valid or is-invalid to the fields. If I fix the input, the colour and message change too.
 
 ## Part 3: Advanced Form Project
 
-### Task 4: Invalid Registration
+### Task 4: Registration with Errors
 
-![Invalid registration](screenshots/task4-invalid.jpg)
+![Registration errors](screenshots/task4-invalid.jpg)
 
-### Task 4: Valid Registration
+### Task 4: Correct Registration Input
 
-![Valid registration](screenshots/task4-valid.jpg)
+![Registration filled correctly](screenshots/task4-valid.jpg)
 
-### Task 4: Mobile Layout
+### Task 4: Phone Layout
 
 ![Registration on a phone](screenshots/task4-mobile.jpg)
 
-The form includes names, email, passwords, gender, hobbies and country. Passwords must match and contain at least 8 characters. Hobbies are optional and allow multiple choices. Reset clears the inputs and validation states.
+This form has first and last name, email, password, confirm password, gender, hobbies and country. The password needs at least 8 characters and both passwords must be the same. Hobbies are optional, so more than one can be selected or none. Reset clear the fields and removes the validation colours and messages.
 
 ## Work Process
 
-I added the HTML fields and labels, styled the last two forms with Bootstrap, then added validation in "js/validation.js". I checked empty and valid inputs, incorrect emails, length limits, password matching and Reset. I also checked the layout at 320px, 768px and 1280px and saved the screenshots above.
+First I made the forms in HTML. Then I used Bootstrap for the last two forms and added the checks in "js/validation.js". I tried empty fields, wrong emails, length limits and different passwords, then checked correct input and Reset. I checked the page at 320px, 768px and 1280px for phone, tablet and computer. The screenshots above are from these forms.
 
 
 <!--
