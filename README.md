@@ -4,9 +4,7 @@ Name: Yerali Karkinbayev
 
 Group: IT-2501
 
-This page have three forms. Open "index.html" in a browser, it works without internet. It uses HTML, CSS and Bootstrap CSS, no JavaScript.
-
-Submit runs the browser checks. The forms use method="dialog" without a dialog window, so they stay on the page and do not send a request. No messages or accounts are created.
+Three forms with HTML, CSS and Bootstrap. No JavaScript. Open "index.html". Submit check the fields, nothing is sent.
 
 ## Part 1: Basic HTML Forms
 
@@ -14,59 +12,57 @@ Submit runs the browser checks. The forms use method="dialog" without a dialog w
 
 ![Contact form](screenshots/task0.jpg)
 
-Name, Email, Message and a Submit button. Each label uses the same for value as its field's id.
+Name, Email, Message and Submit. Labels use for and id.
 
-### Task 1: Browser Validation
+### Task 1: HTML5 Validation
 
 ![Wrong email](screenshots/task1.jpg)
 
-All three fields are required. Email uses type="email". The maximum lengths are 50 for Name, 100 for Email and 500 for Message. Empty fields and wrong emails are blocked by the browser.
+All fields is required. Email format is checked. Maximum length: name 50, email 100, message 500.
 
 ## Part 2: Bootstrap Forms
 
 ### Task 2: Bootstrap Contact Form
 
-![Bootstrap contact form](screenshots/task2.jpg)
+![Bootstrap form](screenshots/task2.jpg)
 
-I used Bootstrap Grid, form-label, form-control, form-text and btn. Name and Email are side by side from 768px, and stacked on a phone. The fields also have placeholders and short hints.
+Bootstrap fields, placeholders and helper text. Grid gives two columns from 768px, one on phone.
 
-### Task 3: Bootstrap Class Examples
+### Task 3: Validation Classes
 
-![Bootstrap class examples](screenshots/task3-classes.jpg)
+![Class examples](screenshots/task3-classes.jpg)
 
-These two read-only fields show is-valid and is-invalid. They are fixed examples of the classes, not checks of user input.
+is-valid and is-invalid are fixed examples. The working form use was-validated, so feedback changes with input.
 
-### Task 3: Wrong Input
+Wrong input:
 
-![Contact form with errors](screenshots/task3-invalid.jpg)
+![Wrong input](screenshots/task3-invalid.jpg)
 
-### Task 3: Correct Input
+Correct input:
 
-![Contact form filled correctly](screenshots/task3-valid.jpg)
-
-The working form uses was-validated. Bootstrap CSS reads the browser's valid and invalid states, so colours and feedback change with the input. Empty required fields are red from the start.
+![Correct input](screenshots/task3-valid.jpg)
 
 ## Part 3: Advanced Form Project
 
-### Task 4: Registration with Errors
+### Task 4: Registration Form
+
+Wrong input:
 
 ![Registration errors](screenshots/task4-invalid.jpg)
 
-### Task 4: Correct Registration Input
+Correct input:
 
-![Registration filled correctly](screenshots/task4-valid.jpg)
+![Correct registration](screenshots/task4-valid.jpg)
 
-### Task 4: Phone Layout
+Phone:
 
-![Registration on a phone](screenshots/task4-mobile.jpg)
+![Phone layout](screenshots/task4-mobile.jpg)
 
-The form has first and last name, email, password, confirm password, gender, hobbies and country. Both password fields are required and need at least 8 characters. Their values are not compared. Hobbies are optional and allow several choices.
-
-Reset clear the fields and selections. The form returns to its starting state, where empty required fields are red.
+First and last name, email, passwords, gender, hobbies and country. Both passwords need 8 or more characters, they are not compared. Hobbies are optional. Reset clear all fields and selections. Empty required fields are red, also after Reset.
 
 ## Work Process
 
-First I made the fields and labels in HTML, then used Bootstrap to arrange the last two forms. I checked empty fields, email format, length limits, radio buttons, checkboxes, country and Reset. I also checked the layout at 320px, 768px and 1280px. The screenshots are from the finished page.
+I made forms then add Bootstrap. Checked labels, empty fields, email, length limits, choices and Reset. Also tested at 320px, 768px and 1280px.
 
 <!--
 Bootstrap v5.3.8 (https://getbootstrap.com/)
