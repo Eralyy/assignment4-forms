@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: white;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+h3 { font-size: 18px; margin-bottom: 16px; }
+
+section {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #ccc;
+}
+
+.basic-field {
+  margin-bottom: 12px;
+}
+
+.basic-field label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.basic-field input, .basic-field textarea {
+  width: 100%;
+  padding: 6px;
+}
+
+.result {
+  margin: 12px 0 0;
+}
