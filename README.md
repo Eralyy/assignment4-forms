@@ -4,7 +4,7 @@ Name: Yerali Karkinbayev
 
 Group: IT-2501
 
-Three forms with HTML, CSS and Bootstrap. No JavaScript. Open "index.html". Submit check the fields, nothing is sent.
+Three forms with HTML, CSS, Bootstrap and JavaScript. Open "index.html". Submit check the fields, nothing is sent.
 
 ## Part 1: Basic HTML Forms
 
@@ -32,7 +32,7 @@ Bootstrap fields, placeholders and helper text. Grid gives two columns from 768p
 
 ![Class examples](screenshots/task3-classes.jpg)
 
-is-valid and is-invalid are fixed examples. The working form use was-validated, so feedback changes with input.
+is-valid and is-invalid are fixed examples. The working forms use "js/validation.js" from the [Bootstrap example](https://getbootstrap.com/docs/5.3/forms/validation/#custom-styles). It checks validity on Submit and adds was-validated. Feedback then change with input.
 
 Wrong input:
 
@@ -58,8 +58,8 @@ Phone:
 
 ![Phone layout](screenshots/task4-mobile.jpg)
 
-First and last name, email, passwords, gender, hobbies and country. Both passwords need 8 or more characters, they are not compared. Hobbies are optional. Reset clear all fields and selections. Empty required fields are red, also after Reset.
+First and last name, email, passwords, gender, hobbies and country. Both passwords need 8 or more characters, they are not compared. Hobbies are optional. Errors show after Submit. Reset clear fields, selections and validation styles.
 
 ## Work Process
 
-I made forms then add Bootstrap. Checked labels, empty fields, email, length limits, choices and Reset. Also tested at 320px, 768px and 1280px.
+I made forms then add Bootstrap and the validation script. Checked labels, empty fields, email, length limits, choices and Reset. Also tested at 320px, 768px and 1280px.
