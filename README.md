@@ -31,8 +31,7 @@ Bootstrap fields, placeholders and helper text. Grid gives two columns from 768p
 ### Task 3: Validation Classes
 
 ![Class examples](screenshots/task3-classes.jpg)
-
-is-valid and is-invalid are fixed examples. The working forms use "js/validation.js" from the [Bootstrap example](https://getbootstrap.com/docs/5.3/forms/validation/#custom-styles). It checks validity on Submit and adds was-validated. Feedback then change with input.
+Bootstrap example. It checks validity on Submit and adds was-validated. Feedback then change with input.
 
 Wrong input:
 
